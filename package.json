@@ -1,0 +1,20 @@
+{
+  "name": "playwright-bdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "generate": "npx bddgen",
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.17",
+    "playwright-bdd": "^8.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
